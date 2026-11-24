@@ -1,48 +1,48 @@
-import livingRoom from "@/assets/cedar/cedar-living-room.jpeg.asset.json";
-import sittingArea from "@/assets/cedar/cedar-sitting-area.jpeg.asset.json";
-import bathroom from "@/assets/cedar/cedar-bathroom.jpeg.asset.json";
-import veranda from "@/assets/cedar/cedar-veranda.jpeg.asset.json";
-import writingNook from "@/assets/cedar/cedar-writing-nook.jpeg.asset.json";
-import bedroom from "@/assets/cedar/cedar-bedroom.jpeg.asset.json";
-import gardenPatio from "@/assets/cedar/cedar-garden-patio.jpeg.asset.json";
-import bathroomVanity from "@/assets/cedar/cedar-bathroom-vanity.jpeg.asset.json";
-import familyMoment from "@/assets/cedar/cedar-family-moment.jpeg.asset.json";
+import livingRoom from "@/assets/media/WhatsApp Image 2026-11-23 at 17.50.06.jpeg";
+import sittingArea from "@/assets/media/WhatsApp Image 2026-11-23 at 17.50.07.jpeg";
+import bathroom from "@/assets/media/WhatsApp Image 2026-11-23 at 17.50.071.jpeg";
+import veranda from "@/assets/media/WhatsApp Image 2026-11-23 at 17.50.08.jpeg";
+import writingNook from "@/assets/media/WhatsApp Image 2026-11-23 at 17.50.081.jpeg";
+import bedroom from "@/assets/media/WhatsApp Image 2026-11-23 at 17.50.083.jpeg";
+import gardenPatio from "@/assets/media/WhatsApp Image 2026-11-23 at 17.50.084.jpeg";
+import bathroomVanity from "@/assets/media/WhatsApp Image 2026-11-23 at 17.50.09.jpeg";
+import familyMoment from "@/assets/media/WhatsApp Image 2026-11-23 at 17.50.096.jpeg";
 
 export const cedarPhotos = {
   hero: {
-    src: familyMoment.url,
+    src: familyMoment,
     alt: "Two older adults enjoying a conversation on a garden veranda",
   },
   livingRoom: {
-    src: livingRoom.url,
+    src: livingRoom,
     alt: "A comfortable Cedar Retreat room with a bed and sitting area",
   },
   sittingArea: {
-    src: sittingArea.url,
+    src: sittingArea,
     alt: "A bright room with space to sit and relax",
   },
   bathroom: {
-    src: bathroom.url,
+    src: bathroom,
     alt: "A spacious bathroom with a walk-in shower",
   },
   veranda: {
-    src: veranda.url,
+    src: veranda,
     alt: "A shaded veranda beside the garden",
   },
   writingNook: {
-    src: writingNook.url,
+    src: writingNook,
     alt: "A writing desk beside a window",
   },
   bedroom: {
-    src: bedroom.url,
+    src: bedroom,
     alt: "A bedroom with a comfortable bed and seating",
   },
   gardenPatio: {
-    src: gardenPatio.url,
+    src: gardenPatio,
     alt: "Outdoor seating among the trees and garden plants",
   },
   bathroomVanity: {
-    src: bathroomVanity.url,
+    src: bathroomVanity,
     alt: "A bathroom vanity with twin sinks",
   },
 } as const;
