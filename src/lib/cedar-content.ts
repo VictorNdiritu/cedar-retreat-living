@@ -81,3 +81,38 @@ export const cedarNavigation = [
   { label: "Media", to: "/media" },
   { label: "Contact", to: "/contact" },
 ] as const;
+
+export const cedarContact = {
+  phoneNumber: "+254 702 868 888",
+  phoneLink: "+254702868888",
+  whatsappLink: "254702868888",
+  location: "Nanyuki, Kenya",
+} as const;
+
+export const cedarFaqs = [
+  {
+    question: "Who is Cedar Retreat Nanyuki designed for?",
+    answer:
+      "Cedar Retreat Nanyuki welcomes older adults seeking a peaceful, homelike place to live—whether they are fully independent and looking for community, or would appreciate thoughtful daily support in a calm setting.",
+  },
+  {
+    question: "Can residents keep their own daily routine and personal belongings?",
+    answer:
+      "Yes. We believe retirement living should still feel entirely like your own life. Residents are encouraged to bring cherished personal touches, keep their preferred waking and dining rhythms, and enjoy quiet time or company as they choose.",
+  },
+  {
+    question: "How does Cedar Retreat support families who live nearby or abroad?",
+    answer:
+      "Families are always welcome to visit, share tea on the veranda, or call us directly. For relatives living further away, we prioritise clear, warm communication so you always feel connected to your loved one's wellbeing.",
+  },
+  {
+    question: "What makes Cedar Retreat different from a clinical facility?",
+    answer:
+      "Cedar Retreat is a residential home and community, not a hospital. Our spaces—from shaded garden verandas to bright sitting rooms and private bedrooms—are designed for comfort, dignity, and everyday belonging.",
+  },
+  {
+    question: "How can we arrange a visit or ask about availability?",
+    answer:
+      "You can call us directly on +254 702 868 888 or use the Plan a Visit form on our Contact page to message us via WhatsApp. We will happily arrange a personal tour for you and your family.",
+  },
+] as const;
