@@ -83,9 +83,9 @@ export const cedarNavigation = [
 ] as const;
 
 export const cedarContact = {
-  phoneNumber: "+254 702 868 888",
-  phoneLink: "+254702868888",
-  whatsappLink: "254702868888",
+  phoneNumber: "+254 185 424 632",
+  phoneLink: "+254185424632",
+  whatsappLink: "254185424632",
   location: "Nanyuki, Kenya",
 } as const;
 
@@ -113,6 +113,6 @@ export const cedarFaqs = [
   {
     question: "How can we arrange a visit or ask about availability?",
     answer:
-      "You can call us directly on +254 702 868 888 or use the Plan a Visit form on our Contact page to message us via WhatsApp. We will happily arrange a personal tour for you and your family.",
+      "You can call us directly on +254 185 424 632 or use the Plan a Visit form on our Contact page to message us via WhatsApp. We will happily arrange a personal tour for you and your family.",
   },
 ] as const;

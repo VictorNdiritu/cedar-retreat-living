@@ -28,7 +28,7 @@ function ResourcesPage() {
       step: "01",
       title: "Start with a conversation",
       description:
-        "Call us on +254 702 868 888 or send a WhatsApp enquiry. Share what matters most to you or your family member.",
+        "Call us on +254 185 424 632 or send a WhatsApp enquiry. Share what matters most to you or your family member.",
     },
     {
       step: "02",
